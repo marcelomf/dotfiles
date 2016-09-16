@@ -1,0 +1,9 @@
+[user]
+	name = Marcelo M. Fleury
+	email = marcelomf@gmail.com
+[core]
+	editor = vim
+[merge]
+	tool = vimdiff
+[push]
+	default = simple
