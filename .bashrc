@@ -115,7 +115,7 @@ fi
 alias docker='sudo docker'
 alias docker.io='sudo docker.io'
 alias apt-get='sudo apt-get'
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init -)"
-export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
+#export PATH="$HOME/.rbenv/bin:$PATH"
+#eval "$(rbenv init -)"
+#export PATH="$HOME/.rbenv/plugins/ruby-build/bin:$PATH"
 alias abnt2="setxkbmap -model abnt2 -layout br -variant abnt2"
