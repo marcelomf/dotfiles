@@ -1,4 +1,7 @@
 " Vundle required
+" Others: 
+" https://github.com/qmx/vimdir/blob/master/vimrc
+" https://github.com/jessfraz/.vim
 
 set nocompatible
 filetype off
