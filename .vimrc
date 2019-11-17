@@ -1,4 +1,5 @@
 " Vundle required
+
 set nocompatible
 filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
@@ -126,8 +127,9 @@ imap <c-s> <Esc>:w<CR>a
 " Reformatting options. See `:help fo-table`
 set formatoptions+=lnor1
 " Disable spellcheck by default
-set nospell
-autocmd BufRead,BufNewFile * setlocal nospell
+"set nospell
+"autocmd BufRead,BufNewFile * setlocal nospell
+set spell spelllang=pt
 " To enable again, use:
 " setlocal spell spelllang=en_us
 
